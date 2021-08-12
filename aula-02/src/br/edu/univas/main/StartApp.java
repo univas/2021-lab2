@@ -12,6 +12,8 @@ public class StartApp {
 		int xpto = 10;
 		float abc = 123.3f;
 		boolean qualquerCoisa = true;
+		
+		print(pessoa, xpto, abc, qualquerCoisa);
 	}
 	
 	public static void executeSum() {
