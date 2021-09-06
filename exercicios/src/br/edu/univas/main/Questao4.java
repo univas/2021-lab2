@@ -7,17 +7,17 @@ public class Questao4 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Por favor, digite o primeiro número: ");
+		System.out.println("Por favor, digite o primeiro nÃºmero: ");
 		int a = scanner.nextInt();
 		
-		System.out.println("Por favor, digite o segundo número:");
+		System.out.println("Por favor, digite o segundo nÃºmero:");
 		int b = scanner.nextInt();
 		
 		if (a == b) {
-			System.out.println("Os números digitados são iguais!");
+			System.out.println("Os nÃºmeros digitados sÃ£o iguais!");
 		} else {
 			int major = calcMajorNumber(a, b);
-			System.out.println("O maior número digitado foi: " + major);
+			System.out.println("O maior nÃºmero digitado foi: " + major);
 		}
 		
 		scanner.close();
@@ -33,10 +33,10 @@ public class Questao4 {
 //	public static void main(String[] args) {
 //		Scanner scanner = new Scanner(System.in);
 //		
-//		System.out.println("Por favor, digite o primeiro número: ");
+//		System.out.println("Por favor, digite o primeiro nÃºmero: ");
 //		int a = scanner.nextInt();
 //		
-//		System.out.println("Por favor, digite o segundo número:");
+//		System.out.println("Por favor, digite o segundo nÃºmero:");
 //		int b = scanner.nextInt();
 //		
 //		calcMajorNumber(a, b);
@@ -46,11 +46,11 @@ public class Questao4 {
 //	
 //	public static void calcMajorNumber(int firstNumber, int secondNumber) {
 //		if (firstNumber > secondNumber) {
-//			System.out.println("O maior número digitado foi: " + firstNumber);
+//			System.out.println("O maior nÃºmero digitado foi: " + firstNumber);
 //		} else if (secondNumber > firstNumber) {
-//			System.out.println("O maior número digitado foi: " + secondNumber);
+//			System.out.println("O maior nÃºmero digitado foi: " + secondNumber);
 //		} else {
-//			System.out.println("Os números digitados são iguais!");
+//			System.out.println("Os nÃºmeros digitados sÃ£o iguais!");
 //		}
 //	}
 }

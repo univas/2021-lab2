@@ -11,8 +11,8 @@ public class Questao5 {
 		String word = scanner.nextLine();
 		
 		word = removeSpaces(word);
-		
-		System.out.println("A palavra sem espaço ficou: " + word);
+
+		System.out.println("A palavra sem espaÃ§o ficou: " + word);
 		
 		scanner.close();
 	}
@@ -20,12 +20,12 @@ public class Questao5 {
 	public static String removeSpaces(String word) {
 		String wordWithoutSpace = word;
 		
-		//remover espaço vazio do inicio
+		//remover espaÃ§o vazio do inicio
 		while (wordWithoutSpace.startsWith(" ")) {
 			wordWithoutSpace = wordWithoutSpace.substring(1);
 		}
 		
-		//remover espaço vazio do final
+		//remover espaÃ§o vazio do final
 		while (wordWithoutSpace.endsWith(" ")) {
 			int lenght = wordWithoutSpace.length();
 			wordWithoutSpace = wordWithoutSpace.substring(0, lenght - 1);
