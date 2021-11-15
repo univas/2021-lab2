@@ -18,3 +18,9 @@
 .project
 
 .metadata/
+
+
+#IntelliJ
+.idea/
+*.iml
+*.iws
